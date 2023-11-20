@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: oswald , sans-serif;
+}
+body {
+  background-color: yellow;
+  margin: 0;
+  
+}
+
+
+
+
+
+body {
+  width: 100%;
+  min-width: 350px;
+  background-color: #40e9d5;
+  color: rgb(0, 0, 0);
+}
+
+
+/* header heading section */
+#heading {
+  margin-top: 90px;
+}
+
+/* header navbar */
+
+/* header search bar section */
+#search-bar {
+  max-width: 750px;
+}
+
+#search-bar input {
+  height: 50px;
+  border-radius: 20px;
+}
+
+/* meal card */
+#card {
+  background-color: #000000;
+  border-radius: 30px;
+  padding: 15px;
+  color: rgb(160, 110, 110);
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  margin: 20px;
+  transition: 1s;
+}
+
+#card:hover {
+  transform: scale(1.02);
+}
+#more-details {
+  content: "Recipe";
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  transition: background-color 0.7s ease;
+}
+
+#more-details:hover {
+  background-color: #cd9696;
+  
+}
+#card img {
+  border-radius: 20%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+}
+
+/* meal details container */
+#meal-details {
+  width: 60%;
+  min-width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #000000;
+  color: white;
+}
+#meal-header {
+  width: 70%;
+  margin: auto;
+}
+#meal-thumbail img {
+  height: 250px;
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  /* 
+
+  /* meal card */
+  #card {
+    background-color: #8d8081;
+    padding: 10px;
+    color: rgb(189, 103, 103);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  #card img {
+    border-radius: 50%;
+  }
+
+  /* meal details container */
+  #meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ff3044;
+  }
+  #meal-header {
+    width: 70%;
+    margin: auto;
+  }
+  #meal-thumbail img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+  #details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+  }
+  #meal-instruction {
+    margin: auto;
+    text-align: center;
+  }
+  /* favourites off canvas */
+  #favourites-body {
+    background-color: #fca1de;
+  }
+
+  width: 250px;
+  border-radius: 50px;
+}
+#logo {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+
+#more-details {
+  content: "Recipe";
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+}
+#youtube-btn a {
+  background-color: rgb(6, 6, 6);
+  border-radius: 20px;
+  transition: background-color 0.7s ease; /* Add a smooth transition effect */
+}
+
+#youtube-btn a:hover {
+  background-color: white; 
+}
+
+
+.fav-btn {
+  background-color: #020202;
+}
+#logo img {
+  margin: 0px 15px;
+  height: 50px;
+}
+
+
